@@ -6,103 +6,110 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <style>
             .containerone {
                 border: 1px solid;
                 width: 1290px;
-                height: 50px;
+                height: 60px;
                 margin-left: 10px;
                 margin-top: 10px;
+                
             }
             .containertwo {
                 border: 1px solid;
                 width: 1290px;
                 height:120px;
                 margin-left: 10px;
+                background-color: hsl(182, 100%, 54%);
             }
             .containerthree {
                 border: 1px solid;
                 width: 1290px;
                 height: 330px;
                 margin-left: 10px;
+                background-color: aquamarine;
             }
            .containerfour {
             border: 1px solid;
             width: 1290px;
             height: 330px;
             margin-left: 9px;
+            background-color: aquamarine;
            }
            .containerfive {
             border: 1px solid;
             width: 1290px;
             height: 120px;
             margin-left: 9px;
+            background-color: aquamarine;
            }    
           .logo {
             width: 50px;
             height: 50px;
             margin-left: 1240px;
           }
-          .imageone {
+          .imageone{
             width: 80px;
             height: 119px;
             margin-left: 3px;
-            border-radius: 20px;
+            border-radius: 40px;
           }
           .imagetwo {
             width: 80px;
             height: 119px;
             margin-left: 20px;
-            border-radius: 20px; 
+            border-radius: 40px; 
           }
           .imagethree {
             width: 80px;
             height: 119px;
             margin-left: 30px;
-            border-radius: 20px;
+            border-radius: 40px;
           }
          
           .imagefour {
             width: 80px;
             height: 119px;
             margin-left: 40px;
-            border-radius: 20px;
+            border-radius: 40px;
           }
          .imagefive {
             width: 80px;
             height: 119px;
             margin-left: 47px;
-            border-radius: 20px;
+            border-radius: 40px;
          }
          .imagesix {
             width: 80px;
             height: 119px;
             margin-left: 53px;
-            border-radius: 20px;
+            border-radius: 40px;
          }
          .imageseven {
             width: 80px;
             height: 119px;
             margin-left: 60px;
-            border-radius: 20px;
+            border-radius: 40px;
          }
          .imageeight {
             width: 80px;
             height: 119px;
             margin-left: 70px;
-            border-radius: 20px;
+            border-radius: 40px;
          }
          .imagenine {
             width: 80px;
             height: 119px;
-            margin-left: 72px;
-            border-radius: 20px;
+            margin-left: 70px;
+            border-radius: 40px;
          }
          .imageten {
             width: 80px;
             height: 119px; 
-            margin-left: -1px;
-            border-radius: 20px;
+            margin-left: 4%;  
+            border-radius: 40px;
          }
          .photoone {
           width: 200px;
@@ -176,19 +183,45 @@
           margin-left: 5px; 
           border-radius:20px;
          }
+         .Template{
+          height: 115px;
+          width: 1290px;
+         }
          
-
-        
          
         </style>
     </head>
     <body>
-        <div class="containerone">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnSUeu3YlTzoyacX7i0XyIN2P6VdRySIvqOhbmJBr8slzIaEg1u_WVLdT5UJ3N6dC4_SE&usqp=CAU" class="logo">
-           
+        <div class="containerone" style="cursor: pointer;">
+      
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">SOUPS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">STARTERS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">BIRYANI</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">DESSERTS</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="search items" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
            
         </div>
-        <div class="containertwo">
+        <div class="containertwo" style="cursor: pointer;">
             <img src="https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/divya-jain1120181209215834493.jpeg" class="imageone">
             <img src="https://rakskitchen.net/wp-content/uploads/2013/12/11247326833_0f99d56b4f_z.jpg" class="imagetwo">  
           <img src="https://i.pinimg.com/originals/29/5e/a9/295ea911ae6535167983ec812053be8a.jpg" class="imagethree">
@@ -200,7 +233,7 @@
           <img src="https://images6.alphacoders.com/434/thumb-1920-434430.jpg" class="imagenine">
           <img src="https://i0.wp.com/aartimadan.com/wp-content/uploads/2019/08/gulab-jamun-recipe-1.jpg?fit=750%2C421&ssl=1" class="imageten">
         </div>
-        <div class="containerthree">
+        <div class="containerthree" style="cursor: pointer;">
           <img src="https://i2.wp.com/www.happyandharried.com/wp-content/uploads/2018/04/IMG_2115.jpg" class="photoone">
           <img src="https://nishkitchen.com/wp-content/uploads/2015/04/Chettinad-fish-fry-1B.jpg" class="phototwo">
           <img src="https://www.whiskaffair.com/wp-content/uploads/2020/07/Chicken-Biryani-2-3.jpg" class="photothree">
@@ -208,7 +241,7 @@
           <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/paneer-65.jpg" class="photofive">
           <img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/12/homemade-french-fries-5.jpg" class="photosix">
         </div> 
-        <div class="containerfour">
+        <div class="containerfour" style="cursor: pointer;">
           <img src="https://www.cookingclassy.com/wp-content/uploads/2017/09/chicken-yakisoba-17.jpg" class="sampleone">
           <img src="https://i0.wp.com/southindianrecipes.in/wp-content/uploads/2021/09/Chicken-Curry-Recipe.jpg?resize=768%2C1024&ssl=1" class="sampletwo">
           <img src="https://www.whiskaffair.com/wp-content/uploads/2021/02/Punjabi-Egg-Curry-2-3-500x500.jpg" class="samplethree">
@@ -216,6 +249,8 @@
           <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/gulab-jamun.jpg" class="samplefive">
           <img src="https://www.archanaskitchen.com/images/archanaskitchen/Dessert_Puddings/Creme_caramel_custard_pudding_caramel_custard_Recipe_shutterstock_170464598.jpg" class="samplesix">
         </div>
-        <div class="containerfive"></div>       
+        <div class="containerfive" style="cursor: pointer;">
+          <img src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content-gh/en/_mdb5/standard/web/docs/navigation/footer/examples/assets/2.jpg" alt="" class="Template">
+        </div>       
     </body>
     </html>
